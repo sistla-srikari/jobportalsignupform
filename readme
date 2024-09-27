@@ -1,0 +1,50 @@
+Job Portal
+
+Overview
+
+This project is a part of the Job Portal web application, featuring separate signup forms for recruiters and applicants. The system allows users to sign up as either a recruiter or an applicant based on their role.
+
+Files Structure
+
+SignUpForm.js: Handles the signup form functionality for recruiters.
+
+SignUpForm.css: Styles the recruiter signup form.
+
+SignupForm.js: Handles the signup form functionality for applicants.
+
+SignupForm.css: Styles the applicant signup form.
+
+
+Features
+
+Recruiter Signup:
+
+* A form to create a recruiter account.
+
+* Collects relevant recruiter details.
+
+* Includes fields such as job description, contact information, etc.
+
+
+Applicant Signup:
+
+A form to create an applicant account.
+
+Collects relevant applicant details such as qualifications, experience, etc.
+
+How to Use
+
+The application includes two main signup forms:
+
+Recruiter: Fill out the recruiter form to create an account.
+
+Applicant: Fill out the applicant form to create an account.
+
+Each form is styled separately using its respective CSS file.
+
+
+Technologies Used
+
+JavaScript for handling form logic and submission.
+
+CSS  for styling the signup forms.
