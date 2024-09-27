@@ -1,0 +1,149 @@
+/* SignUpForm.css */
+
+/* SignUpForm.css */
+
+.signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('C:/Users/sistl/OneDrive/Desktop/Job_portal/signup-form\src\images\background1.jpg');  /* Update this path based on where you save the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f4f7f6; /* Fallback color in case image doesn't load */
+    
+}
+
+.signup-form-wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better contrast */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.signup-form {
+    width: 100%;
+}
+
+.form-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Other styles remain unchanged */
+
+
+.form-row {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row.full-width {
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.error {
+    border-color: #dc3545;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.add-institution-btn,
+.add-skill-btn,
+.next-btn,
+.prev-btn,
+.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-institution-btn:hover,
+.add-skill-btn:hover,
+.next-btn:hover,
+.prev-btn:hover,
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.add-institution-btn {
+    width: 100%;
+}
+
+.add-skill-btn {
+    width: 100%;
+}
+
+.next-btn,
+.prev-btn,
+.submit-btn {
+    width: 48%;
+}
+
+.prev-btn {
+    background-color: #6c757d;
+}
+
+.prev-btn:hover {
+    background-color: #5a6268;
+}
+
+.submit-btn {
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .next-btn,
+    .prev-btn,
+    .submit-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .submit-btn {
+        float: none;
+    }
+}
